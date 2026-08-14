@@ -1,0 +1,8 @@
+backend/.agents/
+backend/.claude/
+backend/.windsurf/
+
+node_modules/
+.env
+.env.*
+.history/
