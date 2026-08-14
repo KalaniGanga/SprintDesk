@@ -1,0 +1,8 @@
+@'
+.*
+!.gitignore
+.DS_Store
+Thumbs.db
+.env
+node_modules/
+'@ | Out-File -FilePath .gitignore -Encoding utf8
