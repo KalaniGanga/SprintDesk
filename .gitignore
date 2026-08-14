@@ -1,8 +1,7 @@
-@'
-.*
-!.gitignore
-.DS_Store
-Thumbs.db
-.env
+backend/.agents/
+backend/.claude/
+backend/.windsurf/
+
 node_modules/
-'@ | Out-File -FilePath .gitignore -Encoding utf8
+.env
+.env.*
